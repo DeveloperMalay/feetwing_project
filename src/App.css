@@ -1,0 +1,340 @@
+.App {
+  background: #e5e5e5;
+  height: 1110px;
+  width: 100%;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+.links {
+  display: flex;
+  margin: 10px;
+}
+.option a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.option a:hover {
+  border-bottom: 1px solid black;
+  color: #585858;
+}
+.heading {
+  position: absolute;
+  left: 60px;
+  top: 145px;
+}
+.rectangle {
+  position: absolute;
+  width: 1233px;
+  height: 235px;
+  left: 36px;
+  top: 208px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.title1 h3 {
+  display: inline-block;
+  margin: 20px 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title1 span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.description {
+  margin: -25px 28px;
+}
+.description p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.description span {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.workStatus {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #000000;
+  margin: 40px 28px;
+}
+.otherSection {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.paid {
+  font-size: 18px;
+  font-weight: 500;
+  color: greenyellow;
+  margin: -30px;
+}
+.gratis {
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+}
+.dashboard {
+  position: absolute;
+  top: 60px;
+  left: 440px;
+}
+
+.formdetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.title {
+  margin-left: -397px;
+}
+.title input {
+  width: 600px;
+  height: 20px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding: 10px;
+}
+::-webkit-input-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+::-moz-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+:-moz-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+input:focus {
+  outline: none;
+}
+.empoymentType {
+  margin-left: 296px;
+}
+.empoymentType select {
+  height: 38px;
+  width: 300px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+}
+select option {
+  color: #000000;
+  font-size: 15px;
+  float: left;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select option :focus {
+  outline: none;
+  border: 0;
+}
+.otherdetail {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.otherdetail {
+  margin-bottom: 30px;
+}
+.location {
+  margin-left: -397px;
+}
+.location input {
+  height: 38px;
+  width: 200px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.jobsection {
+  margin-left: 20px;
+}
+.jobsection select {
+  height: 38px;
+  width: 315px;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 12px;
+}
+.workplacetype {
+  margin-left: 20px;
+}
+.workplacetype select {
+  height: 38px;
+  width: 315px;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+}
+.paid2 {
+  margin-left: 20px;
+}
+.paid2 select {
+  height: 38px;
+  width: 315px;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+}
+.short_description {
+  margin-left: -397px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.short_description input {
+  width: 1197px;
+  height: 20px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding: 10px;
+}
+.job_description {
+  margin-left: -397px;
+  height: 510px;
+  width: 1210px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.job_description h3 {
+  margin: 40px 0 0 30px;
+}
+.job_description p {
+  margin: 10px 0 10px 30px;
+}
+.logos{
+  margin-left: 30px;
+  display: flex;
+  justify-content: first baseline;
+}
+.logos .icon {
+  width: 15px;
+  margin: 10px;
+}
+.logos .icon1 {
+  width: 15px;
+  margin: 10px;
+}
+.logos .icon2 {
+  width: 17px;
+  margin: 10px;
+}
+.logos .icon3 {
+  width: 20px;
+  margin: 10px;
+}
+.logos .icon4 {
+  width: 20px;
+  margin: 10px;
+}
+
+.descriparea {
+  margin: 10px 0 10px 30px;
+}
+.descriparea input {
+  width: 1200px;
+  height: 400px;
+}
+.skillpara {
+  color: #585858;
+  font-size: 12px;
+}
+.btn {
+  margin-left: 50px;
+  margin-top: 40px;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 8px;
+  width: 76px;
+  color: green;
+  cursor: pointer;
+  transition: all.2s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1, 1.1);
+}
+.submit button {
+  height: 38px;
+  width: 100px;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  background: #c4c4c4;
+  color: #000000;
+  margin: 30px 0 30px 700px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.submit button:hover {
+  transform: scale(1, 1.1);
+}
